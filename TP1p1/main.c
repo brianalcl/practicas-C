@@ -7,7 +7,7 @@ int main()
     int mes=0;
     int year=0;
     int rta=0;
-    printf("Programa que ve si un grupo de numeros una fecha valida en formato dd-mm-aaaa\n");
+    printf("Programa que ve si un grupo de numeros es una fecha valida en formato dd/mm/aaaa\n");
     printf("Coloque el primer numero correspondiente al dia\n");
     scanf("%i", &dia);
     printf("Coloque el segundo numero correspondiente al mes\n");
@@ -21,7 +21,6 @@ int main()
 
         if(mes==4 || mes==6 || mes==9 || mes==11)
             rta = dia <= 30;
-
 
         if(mes==2){
             if(year%4==0 && (year%100!=0 || year%400==0))
