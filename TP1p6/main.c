@@ -80,7 +80,7 @@ int cantApa(int d, int n)
 /*
 cantParEnImpar:
 CB: si n tiene un solo digito entonces, si el digito es par entonces cantParEnImpar es 1, sino cantParEnImpar es 0.
-CR: si n tiene mas de un digito entonces, si el ultimo digito de n es 1 y esta en una posicion impar entonces cantParEnImpar es 1
+CR: si n tiene mas de un digito entonces, si el ultimo digito de n es par y esta en una posicion impar entonces cantParEnImpar es 1
 mas cantParEnImpar con n', sino cantParEnImpar es cantParEnImpar con n'.
 siendo n' n sin su primer digito.
 */
