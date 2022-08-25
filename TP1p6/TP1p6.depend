@@ -1,5 +1,11 @@
 # depslib dependency file v1.0
-1661036986 source:c:\users\brian\onedrive\source\codeblocks\tp1p6\main.c
+1661351928 source:c:\users\brian\onedrive\source\codeblocks\tp1p6\main.c
 	<stdio.h>
 	<stdlib.h>
+	"funciones.h"
+
+1661351928 source:c:\users\brian\onedrive\source\codeblocks\tp1p6\funciones.c
+	"funciones.h"
+
+1661352049 c:\users\brian\onedrive\source\codeblocks\tp1p6\funciones.h
 
