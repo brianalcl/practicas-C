@@ -21,19 +21,19 @@ int funcion_4(int a, int b){
 */
 int main(){
     printf("10 en base 2: 1010, 1010 << 4 = 10100000 (160 base 10).\n");
-    printf("%d\n", funcion_1(10)); //
+    printf("%d\n", funcion_1(10));
 
     printf("15 en base 2: 1111, 1111 << 4 = 11110000 (240 base 10).\n");
-    printf("%d\n", funcion_1(15)); //
+    printf("%d\n", funcion_1(15));
 
     printf("28 en base 2: 11100, 11100 >> 2 = 111 (7 base 10).\n");
-    printf("%d\n", funcion_2(28)); //
+    printf("%d\n", funcion_2(28));
 
     printf("155 en base 2: 10011011, 10011011 >> 2 = 100110 (38 base 10).\n");
-    printf("%d\n", funcion_2(155)); //
+    printf("%d\n", funcion_2(155));
 
     printf("197 en base 2: 11000101, 11000101 >> 2 = 110001 (49 base 10).\n");
-    printf("%d\n", funcion_2(197)); //
+    printf("%d\n", funcion_2(197));
 
     printf("421 en base 2: 110100101, 0 en base 2: 0, 110100101 & 000000000 = 000000000 = 0 (0 en base 10).\n");
     printf("%d\n", funcion_3(421, 0));
