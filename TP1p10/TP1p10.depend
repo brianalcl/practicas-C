@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1661605166 source:c:\users\brian\onedrive\source\codeblocks\tp1p10\palindroma.c
+1661617261 source:c:\users\brian\onedrive\source\codeblocks\tp1p10\palindroma.c
 	"palindroma.h"
+	<string.h>
 
-1661605307 source:c:\users\brian\onedrive\source\codeblocks\tp1p10\main.c
+1661617210 source:c:\users\brian\onedrive\source\codeblocks\tp1p10\main.c
 	<stdio.h>
 	<stdlib.h>
-	<string.h>
 	"palindroma.h"
 
-1661604628 c:\users\brian\onedrive\source\codeblocks\tp1p10\palindroma.h
+1661617273 c:\users\brian\onedrive\source\codeblocks\tp1p10\palindroma.h
 

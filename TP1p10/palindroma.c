@@ -1,5 +1,5 @@
 #include "palindroma.h"
-
+#include <string.h>
 
 /*
 Palindroma:
@@ -9,8 +9,8 @@ CR: Si la plabra p tiene mas de una letra entonces,
             palindroma es palindroma con p'
         sino palindroma es falso.
 */
-int palindroma(char cadena[], int size){
-    return pali(cadena, 0, size - 1);
+int palindroma(char cadena[]){
+    return pali(cadena, 0, strlen(cadena) - 1);
 }
 
 int pali(char cadena[], int posIni, int posFin){

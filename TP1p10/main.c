@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include "palindroma.h"
 
 int main()
@@ -9,7 +8,7 @@ int main()
     printf("Programa que dada una palabra decide si es palindroma (capicua) o no.\n");
     printf("Coloque un palabra.\n");
     scanf("%s", string);
-    if(palindroma(string, strlen(string))){
+    if(palindroma(string)){
         printf("La palabra es palindroma.\n");
     }
     else{
