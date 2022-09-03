@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1662246269 source:c:\users\brian\onedrive\source\codeblocks\tp2p5\funcionesprocedimientos.c
+	"funcionesProcedimientos.h"
+	<stdlib.h>
+
+1662215287 c:\users\brian\onedrive\source\codeblocks\tp2p5\funcionesprocedimientos.h
+
+1662246332 source:c:\users\brian\onedrive\source\codeblocks\tp2p5\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionesProcedimientos.h"
+
