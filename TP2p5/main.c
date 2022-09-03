@@ -75,11 +75,14 @@ int main()
 
     printf("Arreglos A y B unidos de forma ascendente:\n");
     int *arregloC = unirOrdenado(arregloA, arregloB, tamA, tamB);
+    int *cabeza = arregloC;
     for(int i = 0; i < tamA+tamB; i++){
-        int a = *arregloC++;
+        int a = *cabeza++;
         printf("%i ", a);
 
     }
+
+    free(arregloC);
 
     printf("\n");
     printf("Los -1 en la derecha (si tiene) son espacios 'vacios' escritos a proposito del arreglo resultante.\n");

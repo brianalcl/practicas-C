@@ -34,7 +34,7 @@ int ordenadosAscendente(int arreglo [], int n){
 
 int * unirOrdenado(int arregloA [], int arregloB [], int tamA, int tamB){
 
-    int * rta = malloc((sizeof(int *)*tamA + sizeof(int *)*tamB));
+    int * rta = (int *) malloc((sizeof(int *)*tamA + sizeof(int *)*tamB));
     int * cabeza = rta;
     //llenando con -1's
     for(int i = 0; i < tamA + tamB; i++){
