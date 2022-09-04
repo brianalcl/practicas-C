@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1662305020 source:c:\users\brian\onedrive\source\codeblocks\tp2p6\main.c
+	<stdio.h>
+	<stdlib.h>
+	"reemplazo.h"
+
+1662304135 c:\users\brian\onedrive\source\codeblocks\tp2p6\reemplazo.h
+
+1662304178 source:c:\users\brian\onedrive\source\codeblocks\tp2p6\reemplazo.c
+	"reemplazo.h"
+
