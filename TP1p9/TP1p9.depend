@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1661472343 source:c:\users\brian\onedrive\source\codeblocks\tp1p9\hexaadiez.c
+	"hexaADiez.h"
+	<stdio.h>
+	<stdlib.h>
+
+1661470707 c:\users\brian\onedrive\source\codeblocks\tp1p9\hexaadiez.h
+
+1661472610 source:c:\users\brian\onedrive\source\codeblocks\tp1p9\main.c
+	<stdio.h>
+	<stdlib.h>
+	"hexaADiez.h"
+
