@@ -1,0 +1,6 @@
+Hola, este es mi primer archivo en C
+00000
+00000
+00000
+00000
+00000
