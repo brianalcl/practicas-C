@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "notas.h"
+#include "alumnos.h"
 int cantidadAlumnosMasCarga(int lus[], char notas[], int tamArr){
     int lu = 0;
     int cantAlum = 0;
@@ -12,7 +12,7 @@ int cantidadAlumnosMasCarga(int lus[], char notas[], int tamArr){
     scanf("%i", &lu);
     lus[0] = lu;
     printf("Coloque una nota (letras): \n");
-    fflush(stdin); //sin esto no funciona leer el caracter
+    fflush(stdin); //sin esto no funciona leer el caracter, limpia el buffer
     scanf("%c", &nota);
     notas[0] = nota;
     cantAlum++;
@@ -27,11 +27,11 @@ int cantidadAlumnosMasCarga(int lus[], char notas[], int tamArr){
         }
         lus[i] = lu;
         printf("Coloque una nota (letras): \n");
-        fflush(stdin); //sin esto no funciona leer el caracter
+        fflush(stdin); //sin esto no funciona leer el caracter, limpia el buffer
         scanf("%c", &nota);
         notas[i] = nota;
         printf("Para terminar coloque 'n' para continuar coloque cualquier letra: \n");
-        fflush(stdin); //sin esto no funciona leer el caracter
+        fflush(stdin); //sin esto no funciona leer el caracter, limpia el buffer
         scanf("%c", &continua);
     }
     return cantAlum;
