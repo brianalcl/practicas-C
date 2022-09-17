@@ -19,7 +19,7 @@ int main()
             printf(" %c", alumnos[i]->notas[j]);
         }
         printf("\n");
-        //free(alumnos[i]); //no se si asi libero bien la memoria
+        free(alumnos[i]); //no se si asi libero bien la memoria
     }
 
     return 0;
